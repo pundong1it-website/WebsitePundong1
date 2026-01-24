@@ -23,7 +23,7 @@ export const umkmData = [
     image1: mieayampakminimg, 
     hours: " 09.00 - 21.00 WIB",
     desc: "Berlokasi langsung di area rumah tinggal yang nyaman, Bakso & Mie Ayam Pak Min menjadi pilihan tepat bagi masyarakat yang mencari mie ayam lezat dengan kualitas terjamin. Harga makanan dan minuman di sini sangat terjangkau, berkisar antara Rp3.000 hingga Rp7.000.",
-    address: " Jl. Pundong, Pundong I, Tirtoadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55287", phone: "089668756721", coords: [-7.7316421, 110.3179837]
+    address: " Jl. Pundong, Pundong I, Tirtoadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55287", phone: "089668756721", coords: [-7.7338877,110.3174139,21]
   },
   {
     id: 3, name: "Angkringan Kang Dobleh",
@@ -31,14 +31,14 @@ export const umkmData = [
     image2: kangdoblehImg2,
     hours: " 09.00 - 23.00 WIB",
     desc: "Angkringan Kang Dobleh merupakan sebuah UMKM yang menyediakan berbagai macam minuman dan makanan berat maupun ringan dengan kisaran harga yang terjangkau,  berkisar antara Rp3.000 hingga Rp13.000.",
-    address: " Jl. Pundong, Pundong I, Tirtoadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55287", phone: "089668756721", coords: [-7.7316421, 110.3179837]
+    address: " Jl. Pundong, Pundong I, Tirtoadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55287", phone: "089668756721", coords: [-7.733776, 110.317583]
   },
   {
     id: 4, name: "Ada Salad Buah & Seblak",
     image1: adaseblakmg, 
     hours: "08.00 - 23.00 WIB",
     desc: "ADA Salad Buah & Seblak menawarkan perpaduan unik kuliner antara seblak pedas yang gurih dan salad buah segar. Selain menu utama, tersedia juga pilihan hidangan lain seperti Rawon dan Ayam Kremes lezat yang siap melayani pelanggan selama 24 jam penuh. Kuliner ini juga tersedia di Gofood, Grabfood, dan ShopeeFood ",
-    address: "Pundong I, Tirtoadi, Mlati, Sleman Regency, Special Region of Yogyakarta 55287", coords: [-7.7399, 110.3234]
+    address: "Pundong I, Tirtoadi, Mlati, Sleman Regency, Special Region of Yogyakarta 55287", coords: [-7.7331308,110.3145382]
   }
 
 ];

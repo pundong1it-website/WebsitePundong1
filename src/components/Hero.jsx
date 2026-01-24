@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="h-1 w-24 bg-[#D4A373] mx-auto mb-8 rounded-full"></div>
         
         <p className="text-xl opacity-90 max-w-2xl mx-auto font-light leading-relaxed mb-10">
-          Gerbang informasi digital Dusun Pundong 1, Tirtoadi. Membangun harmoni dalam tradisi dan kemajuan teknologi.
+          Gerbang digital dan sekilas informasi mengenai dusun Pundong 1, Tirtoadi.
         </p>
 
         {/* --- BUTTON GROUP --- */}

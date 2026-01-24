@@ -46,7 +46,7 @@ const Navbar = () => {
           <Link to="/" className={isActive('/')}>Beranda</Link>
           <Link to="/layanan" className={isActive('/layanan')}>Layanan Publik dan Fasilitas Umum</Link>
           <Link to="/umkm" className={isActive('/umkm')}>UMKM</Link>
-          <Link to="/potensi" className={isActive('/potensi')}>Potensi dan Aktivitas Warga</Link>
+          <Link to="/potensi" className={isActive('/potensi')}>Aktivitas & Potensi</Link>
         </div>
 
         {/* MOBILE MENU BUTTON (Hamburger) */}

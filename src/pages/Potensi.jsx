@@ -8,7 +8,7 @@ const Potensi = () => {
       
       {/* --- SECTION 1: HEADER & CARDS --- */}
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-serif font-bold text-[#5B3E31]">Potensi Dusun Pundong 1</h2>
+        <h2 className="text-4xl font-serif font-bold text-[#5B3E31]"> Kegiatan dan Potensi Dusun Pundong 1</h2>
         <div className="h-1 w-20 bg-[#D4A373] mx-auto mt-4 mb-2"></div>
         <p className="text-[#6B5E4C]">Sekilas mengenai Aktivitas dan Potensi Masyarakat Pundong 1.</p>
       </div>
