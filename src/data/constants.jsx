@@ -1,11 +1,22 @@
 import React from 'react';
 import { Activity, Camera, Map as MapIcon, Users, Sprout, Egg } from 'lucide-react';
+
+// --- IMPORT GAMBAR UMKM ---
 import robbaniImg1 from '../assets/umkm/robbani.jpeg';
 import robbaniImg2 from '../assets/umkm/robbani2.jpeg';
 import kangdoblehImg1 from '../assets/umkm/kangdobleh1.jpeg';
 import kangdoblehImg2 from '../assets/umkm/kangdobleh2.png';
 import mieayampakminimg from '../assets/umkm/mieayampakmin.jpeg';
 import adaseblakmg from '../assets/umkm/adaseblak.jpeg';
+
+// --- IMPORT GAMBAR GALERI (TAMBAHAN BARU) ---
+import karangTaruna1 from '../assets/umkm/karangtaruna.jpeg';
+import karangTaruna2 from '../assets/umkm/karangtaruna2.jpeg';
+import kwtImg1 from '../assets/umkm/kwt.jpeg';
+import kwtImg2 from '../assets/umkm/kwt2.jpeg';
+import ternakImg1 from '../assets/umkm/kelompok_ternak.JPG';
+import ternakImg2 from '../assets/umkm/kelompok_ternak2.JPG';
+
 export const PUNDONG_CENTER = [-7.7334246, 110.3153961];
 
 export const umkmData = [
@@ -17,7 +28,6 @@ export const umkmData = [
     desc: "Toko Robbani merupakan suatu unit usaha mikro yang berlokasi di Pundong 1, Tirtoadi, Mlati. Toko menjual berbagai macam bahan pokok (sembako) untuk kebutuhan keluarga hingga aneka cemilan",
     address: "7899+85X, Pundong I, Tirtoadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55287", phone: "081802748749", coords: [-7.7316421, 110.3179837]
   },
-
   {
     id: 2, name: "Bakso & Mie Ayam Pak Min",
     image1: mieayampakminimg, 
@@ -40,7 +50,6 @@ export const umkmData = [
     desc: "ADA Salad Buah & Seblak menawarkan perpaduan unik kuliner antara seblak pedas yang gurih dan salad buah segar. Selain menu utama, tersedia juga pilihan hidangan lain seperti Rawon dan Ayam Kremes lezat yang siap melayani pelanggan selama 24 jam penuh. Kuliner ini juga tersedia di Gofood, Grabfood, dan ShopeeFood ",
     address: "Pundong I, Tirtoadi, Mlati, Sleman Regency, Special Region of Yogyakarta 55287", coords: [-7.7331308,110.3145382]
   }
-
 ];
 
 export const publicServices = [
@@ -60,31 +69,60 @@ export const potensiData = [
     id: 1,
     title: "Karang Taruna",
     desc: "Wadah pengembangan generasi muda Pundong 1 yang aktif dalam kegiatan sosial, olahraga, dan kesenian untuk mempererat solidaritas warga. Terdapat 2 kelompok Tarang Taruna di Pundong 1, yaitu AMP 1 dan Tunas Mlati",
-    icon: <Users size={48} />, // Icon for Community/People
+    icon: <Users size={48} />, 
     color: "text-blue-600"
   },
   {
     id: 2,
     title: "Kelompok Wanita Tani (KWT)",
     desc: "Pemberdayaan ibu-ibu melalui pemanfaatan lahan pekarangan untuk tanaman pangan, mendukung ketahanan pangan keluarga.",
-    icon: <Sprout size={48} />, // Icon for Plants/Farming
+    icon: <Sprout size={48} />, 
     color: "text-green-600"
   },
   {
     id: 3,
     title: "Kelompok Ternak",
     desc: "Unit usaha masyarakat yang berfokus pada pembudidayaan ternak sebagai aset ekonomi jangka panjang dusun.",
-    icon: <Egg size={48} />, // Icon for Livestock/Production (Egg/Poultry symbol)
+    icon: <Egg size={48} />, 
     color: "text-orange-600"
   }
 ];
 
-// Dummy data for the gallery (You can replace src with your actual image paths later)
 export const galleryData = [
-  { id: 1, category: "Karang Taruna", src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=600", caption: "Rapat Rutin Pemuda" },
-  { id: 2, category: "KWT", src: "https://images.unsplash.com/photo-1592419044706-39796d40f98c?auto=format&fit=crop&q=80&w=600", caption: "Panen Sayur Hidroponik" },
-  { id: 3, category: "Ternak", src: "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&q=80&w=600", caption: "Pengecekan Kandang" },
-  { id: 4, category: "Karang Taruna", src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=600", caption: "Kerja Bakti Dusun" },
-  { id: 5, category: "KWT", src: "https://images.unsplash.com/photo-1622383563227-0440113a09ee?auto=format&fit=crop&q=80&w=600", caption: "Pengolahan Hasil Tani" },
-  { id: 6, category: "Ternak", src: "https://images.unsplash.com/photo-1484557985045-6f5837d41153?auto=format&fit=crop&q=80&w=600", caption: "Pemberian Pakan" },
+  { 
+    id: 1, 
+    category: "Karang Taruna", 
+    src: karangTaruna1, 
+    caption: "Kerja Bakti Pengumpulan Sampah Plastik Oleh Karang Taruna Pundong 1." 
+  },
+  { 
+    id: 2, 
+    category: "KWT", 
+    src: kwtImg1, 
+    caption: " Lahan Kelompok Wanita Tani (KWT) Pundong 1." 
+  },
+  { 
+    id: 3, 
+    category: "Ternak", 
+    src: ternakImg1, 
+    caption: "Hewan Ternak Pundong 1." 
+  },
+  { 
+    id: 4, 
+    category: "Karang Taruna", 
+    src: karangTaruna2, 
+    caption: "Kegiatan Jalan Sehat Warga Pundong 1 Yang Diselenggarakan oleh Karang Taruna." 
+  },
+  { 
+    id: 5, 
+    category: "KWT", 
+    src: kwtImg2, 
+    caption: "Lahan KWT Pundong 1." 
+  },
+  { 
+    id: 6, 
+    category: "Ternak", 
+    src: ternakImg2, 
+    caption: "Hewan Ternak Pundong 1." 
+  }
 ];
