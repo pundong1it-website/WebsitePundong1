@@ -12,7 +12,7 @@ import adaseblakmg from '../assets/umkm/adaseblak.jpeg';
 // --- IMPORT GAMBAR GALERI (TAMBAHAN BARU) ---
 import karangTaruna1 from '../assets/umkm/karangtaruna.jpeg';
 import karangTaruna2 from '../assets/umkm/karangtaruna2.jpeg';
-import kwtImg1 from '../assets/umkm/kwt.jpeg';
+import kwtImg1 from '../assets/umkm/kwt3.jpeg';
 import kwtImg2 from '../assets/umkm/kwt2.jpeg';
 import ternakImg1 from '../assets/umkm/kelompok_ternak.JPG';
 import ternakImg2 from '../assets/umkm/kelompok_ternak2.JPG';
