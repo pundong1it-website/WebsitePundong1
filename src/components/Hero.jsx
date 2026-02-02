@@ -9,7 +9,7 @@ const Hero = () => {
       
       <div className="relative z-10 animate-in fade-in zoom-in duration-700">
         <h2 className="text-5xl md:text-7xl font-serif font-bold mb-6 text-white drop-shadow-md">
-          Selamat Datang di Website Pundong 1
+          Selamat Datang di Eksplorasi Digital Pundong 1
         </h2>
         
         <div className="h-1 w-24 bg-[#D4A373] mx-auto mb-8 rounded-full"></div>
