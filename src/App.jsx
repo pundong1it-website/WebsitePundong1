@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// Mengganti BrowserRouter dengan HashRouter untuk stabilitas hosting statis
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 
 // --- IMPORT COMPONENTS ---
@@ -15,7 +16,7 @@ import Potensi from './pages/Potensi';
 import { setupLeafletMarkers } from './utils/leaflet-config';
 
 const App = () => {
-  // Initialize Leaflet markers once
+  // Inisialisasi marker Leaflet satu kali saat aplikasi dimuat
   useEffect(() => {
     setupLeafletMarkers();
   }, []);
@@ -23,7 +24,7 @@ const App = () => {
   return (
     <Router>
       <div className="min-h-screen bg-[#FDFBF7] text-[#3E362E] font-sans">
-        {/* Global CSS */}
+        {/* Global CSS untuk Font dan Peta */}
         <style>
           {`@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
             .font-serif { font-family: 'Lora', serif; }
@@ -31,7 +32,7 @@ const App = () => {
             .leaflet-container { z-index: 1; }`}
         </style>
 
-        {/* Navbar no longer needs props passed to it */}
+        {/* Navbar akan otomatis menyesuaikan link berdasarkan URL saat ini */}
         <Navbar />
         
         <main className="pt-20">
